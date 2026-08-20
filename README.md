@@ -1,1 +1,1 @@
-# LaTeX-Dictionary-Usages
+# LaTeX Dictionary Usages
