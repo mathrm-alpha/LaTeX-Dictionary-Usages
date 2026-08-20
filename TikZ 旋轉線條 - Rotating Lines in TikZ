@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage[paperwidth=9cm, paperheight=9cm, margin=1.5cm]{geometry}
+\begin{document}
+\pagestyle{empty}
+\begin{figure}[htbp]
+\begin{tikzpicture}
+\begin{scope}[rotate=0]
+%前者值 (x,x) 調整位置，後者值 (x,x) 調整角度
+%長度會隨「數值」而變長
+\draw [line width=0.3cm] (0,0) -- (2,2);
+\draw [line width=0.3cm] (0,0) -- (0,3);
+\draw [line width=0.3cm] (0,0) -- (-2,2);
+\draw [line width=0.3cm] (0,0) -- (2,-2);
+\draw [line width=0.3cm] (0,0) -- (3,0);
+\draw [line width=0.3cm] (0,0) -- (-3,0);
+\draw [line width=0.3cm] (0,0) -- (0,-3);
+\draw [line width=0.3cm] (0,0) -- (-2,-2);
+\end{scope}
+\end{tikzpicture}
+\end{figure}
+\end{document}
